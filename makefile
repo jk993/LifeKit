@@ -9,7 +9,7 @@ web:
 init:
 	npm install
 	ionic hooks add
-	bower install ngCordova
+	./node_modules/bower/bin/bower install ngCordova
 	ionic platform add android
 	ionic platform add ios
 	cordova plugin add cordova-plugin-device-motion
